@@ -16,22 +16,8 @@
 <style>
 :root{--bg:#F2F2F7;--card:#FFF;--text:#1C1C1E;--sub:#8E8E93;--line:#C6C6C8;--accent:#000000;--green:#34C759;--red:#FF3B30;--r:12px}
 *{box-sizing:border-box;margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Arial,sans-serif;-webkit-tap-highlight-color:transparent}
-body{
-background:var(--bg);
-color:var(--text);
-padding-bottom:calc(90px + env(safe-area-inset-bottom, 0px));
-max-width:600px;
-margin:auto;
-}
-header{
-background:rgba(255,255,255,.88);
-backdrop-filter:blur(20px);
-position:sticky;
-top:0;
-z-index:100;
-padding:calc(16px + env(safe-area-inset-top, 0px)) 20px 16px;
-border-bottom:.5px solid var(--line);
-}
+body{background:var(--bg);color:var(--text);padding-bottom:90px;max-width:600px;margin:auto}
+header{background:rgba(255,255,255,.88);backdrop-filter:blur(20px);position:sticky;top:0;z-index:100;padding:16px 20px;border-bottom:.5px solid var(--line)}
 header h1{font-size:18px;font-weight:600;display:flex;justify-content:space-between;align-items:center}
 .container{padding:16px}.card{background:var(--card);border-radius:var(--r);padding:16px;margin-bottom:16px;box-shadow:0 1px 3px rgba(0,0,0,.05);border:.5px solid rgba(0,0,0,.04)}
 .card h2{font-size:15px;font-weight:600;margin-bottom:12px;display:flex;justify-content:space-between;align-items:center}
